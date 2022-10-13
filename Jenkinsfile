@@ -19,7 +19,7 @@ pipeline {
             }
         }
         
-        stage('BatFile'){
+        stage('BatFile Stage'){
             steps{
                 bat 'Trash1.bat'
             }
