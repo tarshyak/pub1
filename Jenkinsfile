@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 git branch: 'main', url: 'https://github.com/tarshyak/pub1.git'
+                echo "branch connected"
                 
             }
         }
